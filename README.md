@@ -1,7 +1,7 @@
 # docker-multi-parameters
 dockerfile with multi parameters
 
-`docker build -t  azurelogin:180514`
+`docker build -t  azurelogin:180514 .`
 
 docker run container with azure account -u \<clientid\> -p \<clientsecret\> -t \<tenantid\>
 
